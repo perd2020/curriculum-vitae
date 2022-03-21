@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("logos/fondoazul.jpg");
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color:hsl(182, 87%, 43%);
+    margin:0;
+    padding:0 ;
+}
+
+header{
+    background-color: hsla(286, 78%, 22%, 0.103);
+    padding: 50px;
+    
+    text-align: center;
+        }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: hsla(286, 84%, 10%, 0.103);
+    text-align: center;
+    
+    
+}
+.botonenlacepag{
+    color: whitesmoke;
+    background-color: rgba(106, 7, 119, 0.507);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgba(143, 33, 143, 0.548) ;
+}
+
+h1,h2, h3{
+    text-align: center;
+    color:white;
+}
+
+aside{
+    display: flex;
+    flex: 100px;
+    flex-flow: row wrap;
+    background-color:rgba(102, 12, 102, 0.377);
+    justify-content: space-around;
+    
+}
+section{
+    display:flex;
+    
+    background-color:hsla(300, 79%, 22%, 0.377);
+    padding: 20px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#caja1{
+    
+    align-self: center;
+    justify-content: center;
+
+}
+#caja2{
+    text-align: left;
+    justify-content: center;
+}
+
+footer{
+    background-color:hsla(300, 85%, 15%, 0.411);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#titulocv{
+    text-align: right;
+    font-size: 60px;
+}
+
+#fotoperfil{
+    width: 300px;
+
+}
+
+a{
+    font-size: 15px;
+    color:hsl(303, 62%, 63%);
+    text-decoration: none;
+    margin: 10PX 10PX 10PX 10PX;
+    padding: auto;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+    background: black;
+    box-shadow: 0px 2px 0px rgba(143, 33, 143, 0.548) ;
+}
+
+:active{
+    box-shadow: none;
+}
+
+
+.datospersonales{
+    display:flex;
+    justify-content: center;align-items: center;
+
+    color:burlywood;
+    font-size: 85px;
+    padding: 100px 100px 100px 100px;
+}
+
+
